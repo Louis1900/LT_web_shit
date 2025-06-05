@@ -1,0 +1,66 @@
+
+    h2 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    table {
+        width: 95%;
+        margin: 0 auto 40px auto;
+        border-collapse: collapse;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    th {
+        background-color: #2980b9;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #e0f7fa;
+        transition: background-color 0.3s ease;
+    }
+
+    .nutsua, .nutxoa {
+        padding: 6px 12px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .nutsua {
+        background-color: #27ae60;
+        margin-right: 5px;
+    }
+
+    .nutxoa {
+        background-color: #c0392b;
+    }
+
+    .nutsua:hover {
+        background-color: #1e8449;
+    }
+
+    .nutxoa:hover {
+        background-color: #922b21;
+    }
+
